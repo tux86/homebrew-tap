@@ -28,6 +28,6 @@ class Ssomatic < Formula
   end
 
   test do
-    assert_match "SSOmatic", shell_output("#{bin}/ssomatic --help 2>&1", 1)
+    assert_match "ssomatic", shell_output("#{bin}/ssomatic --version")
   end
 end
