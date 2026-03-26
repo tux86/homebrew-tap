@@ -1,24 +1,24 @@
 class Ssomatic < Formula
   desc "Interactive AWS SSO credential manager with CLI and web UI"
   homepage "https://github.com/tux86/ssomatic"
-  version "1.2.0"
+  version "1.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tux86/ssomatic/releases/download/v#{version}/ssomatic-darwin-arm64.bin"
-      sha256 "46a9709c578a2d2df1c41e7846c4c7c08fa9b279760985af175d19785ac944e6"
+      sha256 "aff6220701a0be9b00c0b89b4519548f2cd065b72a0a0680b0bd89f9f8db3537"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tux86/ssomatic/releases/download/v#{version}/ssomatic-linux-x64.bin"
-      sha256 "25f2f6bfdc129e56d35e6151bfad72754e010fa4c63cccb91b0a2f2d80c8f61b"
+      sha256 "6b80a162f09e2cb0d7989d2511da19df8d2fa515a2c6f7429725f57f8bcff4ac"
     end
     on_arm do
       url "https://github.com/tux86/ssomatic/releases/download/v#{version}/ssomatic-linux-arm64.bin"
-      sha256 "5e1e1709486cd79a6155e4f03e6cb31649298ba9100980180e2ef3ef1900179e"
+      sha256 "855a63ad968e6330f34c5f8fcec981a928d62592c4681ffcb1dd8953512de1e5"
     end
   end
 
