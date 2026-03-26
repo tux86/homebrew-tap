@@ -1,7 +1,7 @@
 class Ssomatic < Formula
   desc "Interactive AWS SSO credential manager with CLI and web UI"
   homepage "https://github.com/tux86/ssomatic"
-  version "1.0.1"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
